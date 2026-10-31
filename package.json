@@ -1,0 +1,47 @@
+{
+  "name": "dsh-client-ui-session-cost",
+  "version": "0.1.0",
+  "description": "Estimated session cost pill for the DeepSeek Harness composer dock",
+  "license": "MIT",
+  "author": "IskrantX",
+  "homepage": "https://github.com/iskrantxusa/dsh-client-ui-session-cost#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iskrantxusa/dsh-client-ui-session-cost.git"
+  },
+  "bugs": {
+    "url": "https://github.com/iskrantxusa/dsh-client-ui-session-cost/issues"
+  },
+  "keywords": [
+    "dsh",
+    "deepseek-harness",
+    "plugin",
+    "cost",
+    "tokens",
+    "usage"
+  ],
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./client": "./lib/client.js",
+    "./cordis.patch.yml": "./cordis.patch.yml",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "lib/index.js",
+    "lib/client.js",
+    "cordis.patch.yml",
+    "README.md",
+    "preview.png"
+  ],
+  "dsh": {
+    "manifestVersion": 1,
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web"
+    }
+  }
+}

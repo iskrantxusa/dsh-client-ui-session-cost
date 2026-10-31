@@ -1,0 +1,6 @@
+# The session-cost bundle patch: insert the client-plugin row when this package
+# is selected in `dsh.profile.bundles`. The row names this same package; its
+# host half is empty and its browser half is served from lib/client.js.
+- insert:
+    - id: ui-session-cost
+      name: dsh-client-ui-session-cost
