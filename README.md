@@ -18,7 +18,20 @@ Session streams.
 
 ## Install
 
-### From GitHub (recommended)
+### From the Discover tab
+
+Turn on **Experimental plugins → Custom plugin markets**, open **Plugins →
+Discover → Add index source**, and enter:
+
+```
+https://raw.githubusercontent.com/iskrantxusa/dsh-client-ui-session-cost/main/market/index.json
+```
+
+The market lists **Session cost pill**; install the version you want after the
+usual confirmation. The index is plain format-1 JSON in
+[`market/index.json`](market/index.json) and is pinned to a Git commit.
+
+### From GitHub (recommended without the market)
 
 ```powershell
 dsh plugin add github:iskrantxusa/dsh-client-ui-session-cost
