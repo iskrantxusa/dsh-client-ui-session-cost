@@ -1,0 +1,41 @@
+{
+  "format": 1,
+  "title": {
+    "en": "IskrantX DSH plugins",
+    "zh": "IskrantX DSH 插件"
+  },
+  "description": {
+    "en": "Small, focused DeepSeek Harness client plugins.",
+    "zh": "小而专注的 DeepSeek Harness 客户端插件。"
+  },
+  "plugins": [
+    {
+      "name": "dsh-client-ui-session-cost",
+      "title": {
+        "en": "Session cost pill",
+        "zh": "会话费用"
+      },
+      "description": {
+        "en": "Shows an estimated session cost under the composer, priced with DeepSeek list rates (peak/off-peak, cache hit/miss).",
+        "zh": "在输入框下方显示会话费用估算，按 DeepSeek 官方价格（高峰/低谷、缓存命中/未命中）计算。"
+      },
+      "icon": "https://raw.githubusercontent.com/iskrantxusa/dsh-client-ui-session-cost/main/preview.png",
+      "author": "IskrantX",
+      "homepage": "https://github.com/iskrantxusa/dsh-client-ui-session-cost#readme",
+      "repository": {
+        "url": "https://github.com/iskrantxusa/dsh-client-ui-session-cost"
+      },
+      "versions": [
+        {
+          "version": "0.1.0",
+          "publishTimestamp": 1793454028,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/iskrantxusa/dsh-client-ui-session-cost",
+            "commit": "58fc65afa5569564bbb9c20f61c3d3512be5187a"
+          }
+        }
+      ]
+    }
+  ]
+}
